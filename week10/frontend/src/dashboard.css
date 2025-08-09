@@ -1,0 +1,48 @@
+.dashboardHome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.filter-options h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #ddd;
+}
+
+.date-picker {
+    margin: 10px 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px; /* Fixed width for consistency */
+    font-size: 1rem;
+}
+
+.date-picker:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.filter-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Primary button color */
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.filter-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
